@@ -1,0 +1,79 @@
+:root { 
+  --black: #000000;
+  --black-2: #00000099;
+  --mariner: #1e65ca99;
+  --mariner-2: #1e65ca;
+  --white: #ffffff99;
+  --white-2: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 18px;
+  --font-size-s: 14px;
+  --font-size-xl: 36px;
+  --font-size-xs: 13px;
+ 
+  --font-family-zilla_slab: "Zilla Slab", Helvetica;
+}
+.zillaslab-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.zillaslab-semi-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.zillaslab-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.zillaslab-bold-black-18px {
+  color: var(--black-2);
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.zillaslab-bold-black-13px {
+  color: var(--black-2);
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.zillaslab-semi-bold-white-36px {
+  color: var(--white-2);
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.zillaslab-semi-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.zillaslab-normal-white-14px-2 {
+  color: var(--white-2);
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}

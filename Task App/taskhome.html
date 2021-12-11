@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/taskhome.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="taskhome" />
+    <div class="container-center-horizontal">
+      <form class="taskhome screen" name="form2" action="form2" method="post">
+        <div class="overlap-group">
+          <img class="ellipse-2" src="img/ellipse-2@2x.svg" />
+          <img class="ellipse-1" src="img/ellipse-1@2x.svg" />
+          <div class="rectangle-7"></div>
+          <img class="rectangle-1" src="img/rectangle-1@1x.svg" />
+          <img class="ellipse-3" src="img/ellipse-3@2x.svg" />
+          <h1 class="title">Hi Ben</h1>
+          <div class="address">4 Pending Tasks</div>
+          <div class="ellipse-8"></div>
+          <div class="ellipse-8-1"></div>
+          <div class="rectangle-2"></div>
+          <div class="monthly-review zillaslab-semi-bold-white-18px">Monthly Review</div>
+          <div class="user2-and-user3 zillaslab-normal-white-14px">User2 and User3</div>
+          <div class="rectangle-3"></div>
+          <div class="rectangle-4"></div>
+          <div class="rectangle-5"></div>
+          <img class="rectangle-6" src="img/rectangle-6@2x.svg" />
+          <div class="design-mobile-app zillaslab-semi-bold-white-18px">Design Mobile App</div>
+          <div class="number zillaslab-semi-bold-white-36px">16</div>
+          <div class="completed zillaslab-semi-bold-white-14px">Completed</div>
+          <div class="number-1 zillaslab-semi-bold-white-36px">12</div>
+          <div class="ongoing zillaslab-semi-bold-white-14px">Ongoing</div>
+          <div class="awaiting-review zillaslab-semi-bold-white-14px">Awaiting Review</div>
+          <div class="in-progress zillaslab-semi-bold-white-14px">In Progress</div>
+          <div class="number-2 zillaslab-semi-bold-white-36px">9</div>
+          <div class="number-3 zillaslab-semi-bold-white-36px">4</div>
+          <div class="new"><span class="span0">New</span><span class="span1"></span></div>
+          <img class="bottomnotification-1" src="img/bottomnotification-1@2x.png" />
+          <img class="menuicon-1" src="img/menuicon-1@2x.png" />
+          <img class="avatar-1" src="img/avatar-1@2x.png" />
+          <img class="avatar-1-1" src="img/avatar-2@2x.png" />
+          <img class="avatar-1-2" src="img/avatar-2@2x.png" />
+          <img class="bottomuser-1" src="img/bottomuser-1@2x.png" />
+          <img class="bottomhome-1" src="img/bottomhome-1@2x.png" />
+          <a href="javascript:SubmitForm('form2')"><img class="calendar-1" src="img/calendar-1@2x.png" /> </a>
+        </div>
+        <a href="javascript:SubmitForm('form2')"><img class="bottomsheet-1" src="img/bottomsheet-1@2x.png" /> </a>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

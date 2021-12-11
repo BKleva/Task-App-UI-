@@ -1,0 +1,412 @@
+/* screen - taskcalendar */
+
+.taskcalendar {
+  align-items: flex-start;
+  background-color: var(--white-2);
+  display: flex;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.taskcalendar .overlap-group {
+  height: 987px;
+  margin-left: -32px;
+  position: relative;
+  width: 499px;
+}
+
+.taskcalendar .rectangle-1 {
+  height: 926px;
+  left: 32px;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.taskcalendar .ellipse-2 {
+  height: 104px;
+  left: 389px;
+  position: absolute;
+  top: 714px;
+  width: 104px;
+}
+
+.taskcalendar .ellipse-3 {
+  height: 104px;
+  left: 0;
+  position: absolute;
+  top: 41px;
+  width: 104px;
+}
+
+.taskcalendar .rectangle-2 {
+  background-color: var(--mariner-2);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 100px;
+  left: 148px;
+  position: absolute;
+  top: 348px;
+  width: 284px;
+}
+
+.taskcalendar .name {
+  color: #000000b2;
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  left: 216px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 133px;
+}
+
+.taskcalendar .july {
+  color: var(--black);
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 104px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 156px;
+}
+
+.taskcalendar .sept {
+  color: var(--black);
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 352px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 156px;
+}
+
+.taskcalendar .next-1 {
+  height: 25px;
+  left: 389px;
+  object-fit: cover;
+  position: absolute;
+  top: 152px;
+  width: 25px;
+}
+
+.taskcalendar .next-2 {
+  height: 25px;
+  left: 69px;
+  object-fit: cover;
+  position: absolute;
+  top: 152px;
+  width: 25px;
+}
+
+.taskcalendar .avatar-1 {
+  height: 60px;
+  left: 372px;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 60px;
+}
+
+.taskcalendar .design-mobile-app {
+  left: 180px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 355px;
+}
+
+.taskcalendar .user2-and-user3 {
+  left: 180px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 379px;
+}
+
+.taskcalendar .avatar-2 {
+  height: 30px;
+  left: 183px;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+  position: absolute;
+  top: 403px;
+  width: 30px;
+}
+
+.taskcalendar .avatar-3 {
+  height: 30px;
+  left: 203px;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+  position: absolute;
+  top: 403px;
+  width: 30px;
+}
+
+.taskcalendar .x900-am-1000-am {
+  left: 283px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 411px;
+}
+
+.taskcalendar .ellipse-1 {
+  height: 225px;
+  left: 279px;
+  position: absolute;
+  top: 762px;
+  width: 220px;
+}
+
+.taskcalendar .ongoing {
+  color: #0d0c0cb2;
+  font-family: var(--font-family-zilla_slab);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  left: 82px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 300px;
+}
+
+.taskcalendar .address {
+  left: 68px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 350px;
+}
+
+.taskcalendar .address-1 {
+  left: 68px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 428px;
+}
+
+.taskcalendar .x1034-am {
+  left: 68px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 506px;
+}
+
+.taskcalendar .address-2 {
+  left: 69px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 584px;
+}
+
+.taskcalendar .address-3 {
+  left: 68px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 662px;
+}
+
+.taskcalendar .address-4 {
+  left: 68px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 740px;
+}
+
+.taskcalendar .line-1 {
+  height: 26px;
+  left: 148px;
+  position: absolute;
+  top: 508px;
+  width: 301px;
+}
+
+.taskcalendar .arrow-right-1 {
+  height: 40px;
+  left: 51px;
+  mix-blend-mode: overlay;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  width: 40px;
+}
+
+.taskcalendar .rectangle-3 {
+  background-color: var(--mariner-2);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 100px;
+  left: 148px;
+  position: absolute;
+  top: 584px;
+  width: 284px;
+}
+
+.taskcalendar .rectangle-4 {
+  background-color: var(--mariner-2);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 100px;
+  left: 148px;
+  position: absolute;
+  top: 740px;
+  width: 284px;
+}
+
+.taskcalendar .address-5 {
+  left: 72px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 818px;
+}
+
+.taskcalendar .software-testing {
+  left: 180px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 595px;
+}
+
+.taskcalendar .user2 {
+  left: 183px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 621px;
+}
+
+.taskcalendar .x1100-am-1200-pm {
+  left: 283px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 651px;
+}
+
+.taskcalendar .x100-pm-200-pm {
+  left: 290px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 805px;
+}
+
+.taskcalendar .user3 {
+  left: 180px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 777px;
+}
+
+.taskcalendar .developement {
+  left: 180px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 749px;
+}
+
+.taskcalendar .avatar-4 {
+  height: 30px;
+  left: 183px;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+  position: absolute;
+  top: 645px;
+  width: 30px;
+}
+
+.taskcalendar .avatar-5 {
+  height: 30px;
+  left: 183px;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+  position: absolute;
+  top: 798px;
+  width: 30px;
+}
+
+.taskcalendar .rectangle-8 {
+  height: 64px;
+  left: 83px;
+  position: absolute;
+  top: 210px;
+  width: 56px;
+}
+
+.taskcalendar .rectangle-9 {
+  height: 64px;
+  left: 173px;
+  position: absolute;
+  top: 210px;
+  width: 56px;
+}
+
+.taskcalendar .rectangle-10 {
+  height: 64px;
+  left: 263px;
+  position: absolute;
+  top: 210px;
+  width: 56px;
+}
+
+.taskcalendar .rectangle-11 {
+  height: 64px;
+  left: 353px;
+  position: absolute;
+  top: 210px;
+  width: 56px;
+}
+
+.taskcalendar .number {
+  left: 103px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 211px;
+}
+
+.taskcalendar .number-1 {
+  left: 193px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 211px;
+}
+
+.taskcalendar .number-2 {
+  left: 282px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 211px;
+}
+
+.taskcalendar .number-3 {
+  left: 374px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 211px;
+}
+
+.taskcalendar .mon {
+  left: 99px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 239px;
+}
+
+.taskcalendar .tues {
+  left: 188px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 239px;
+}
+
+.taskcalendar .wed {
+  left: 279px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 239px;
+}
+
+.taskcalendar .thurs {
+  left: 364px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 240px;
+}
